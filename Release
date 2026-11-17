@@ -1,0 +1,20 @@
+Origin: Estr0g3n
+Label: Estr0g3n
+Suite: stable
+Version: 1.0
+Codename: estr0g3n
+Architectures: iphoneos-arm
+Components: main
+Description: Estr0g3n for Apple TV 3: the hub, modern HTTPS for APT, and tweaks.
+MD5Sum:
+ 384728b7db00eb15b309e2964b3c66af 1106 Packages
+ fada3f8511b0d84eb6a0a0c87994de1e 619 Packages.gz
+ 36a8bd0e86bd8d17df0f7ccffc4159fa 680 Packages.bz2
+SHA1:
+ b5ba1371788d07cebb2523c0b39280b7ab8b5990 1106 Packages
+ 3e3869ab8afee5fa2ef7fe012722195e4176cd17 619 Packages.gz
+ 8d01848159ef6ded737d946239cdee50a7e0e8d2 680 Packages.bz2
+SHA256:
+ 5167a3bed70022b596809574fb8f1d993df252a91d6d16a59b14de33deabac8f 1106 Packages
+ 36046eb6b5bc15d181788780a47aa2385eb657bf2b64f24f9dcf304be67a8a14 619 Packages.gz
+ 392090d2495e4e7754d15b0338118be73913e1b7f50b66cc5ccaa428a2649785 680 Packages.bz2

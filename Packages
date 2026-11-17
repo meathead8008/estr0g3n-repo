@@ -1,0 +1,31 @@
+Package: com.estr0g3n.https
+Name: Estr0g3n HTTPS for APT
+Description: Lets APT reach modern HTTPS repos (TLS 1.2) using Apple's networking instead of the old OpenSSL 0.9.8, and trusts newer root certificates like Let's Encrypt.
+Maintainer: Estr0g3n
+Author: Estr0g3n
+Section: Packaging
+Depends: apt7-ssl
+Architecture: iphoneos-arm
+Version: 0.1.0
+Installed-Size: 156
+Filename: debs/com.estr0g3n.https_0.1.0_iphoneos-arm.deb
+Size: 19874
+MD5sum: 32e81a18fe12af85060ec005f97746f9
+SHA1: 8fe966ef9933f152664a8a75948834957109e2e4
+SHA256: 7d8524a9c1e9a7c2a3e85a2cae4b8ad2dbb3a5e981e761a57664dfd634291f90
+
+Package: com.estr0g3n.hub
+Name: Estr0g3n
+Description: Estr0g3n hub for Apple TV 3: packages, sources, tweaks and maintenance.
+Maintainer: Estr0g3n
+Author: Estr0g3n
+Section: System
+Depends: beigelist, com.estr0g3n.https
+Architecture: iphoneos-arm
+Version: 0.4.1
+Installed-Size: 360
+Filename: debs/com.estr0g3n.hub_0.4.1_iphoneos-arm.deb
+Size: 148608
+MD5sum: 1ecfa56f811a2ff1f0a231be7119c4ad
+SHA1: 366ceaea93233894e3a42e680befa990e707006d
+SHA256: fc7c7aca1c2d9e9b6aee0a3efd3470a5c4c58ce75ec24357949008c241d002f2
