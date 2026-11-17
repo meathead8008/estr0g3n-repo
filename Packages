@@ -22,10 +22,10 @@ Author: Estr0g3n
 Section: System
 Depends: beigelist, com.estr0g3n.https
 Architecture: iphoneos-arm
-Version: 0.4.1
-Installed-Size: 360
-Filename: debs/com.estr0g3n.hub_0.4.1_iphoneos-arm.deb
-Size: 148608
-MD5sum: 1ecfa56f811a2ff1f0a231be7119c4ad
-SHA1: 366ceaea93233894e3a42e680befa990e707006d
-SHA256: fc7c7aca1c2d9e9b6aee0a3efd3470a5c4c58ce75ec24357949008c241d002f2
+Version: 0.4.2
+Installed-Size: 376
+Filename: debs/com.estr0g3n.hub_0.4.2_iphoneos-arm.deb
+Size: 150662
+MD5sum: 0155ada96d90a737436b557e0d503994
+SHA1: 9982e97cbcb345287145b775893bd5fd1c8fe03f
+SHA256: 81cf956f57d377f8f347643fc3b6a94568abb1557564cfc9e71a27d02880ec2a
