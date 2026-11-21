@@ -68,19 +68,19 @@ Package: com.nito.nitotv
 Provides: com.nito.gs
 Conflicts: com.nito.gs(<=0.1-4)
 Replaces: com.nito.gs(<=0.1-4)
-Version: 0.8.7-33
+Version: 0.8.7-33.e1
 Website: nitosoft.com
 Maintainer: nito
 Author: nito
-Description: New and improved installer including package queues, weather, RSS, featured packages, revamped search, package deletion, automatically checks for essential updates now too!
+Description: New and improved installer including package queues, weather, RSS, featured packages, revamped search, package deletion, automatically checks for essential updates now too! (Estr0g3n build: seeds the home-screen tile icon.)
 Section: Utilities
 Depends: beigelist(>=2.2.5-10), mobilesubstrate, cydia(>=1.1.1), com.nito.tssagent(>=1.3-18), com.firecore.freemem-watcher, syslogd
 Installed-Size: 2456
-Filename: debs/com.nito.nitotv_0.8.7-33_iphoneos-arm.deb
-Size: 1687980
-MD5sum: 29bd9d4ffdcb3345c5ec5b8a6c22f0c5
-SHA1: edc3439bac992c1ad2451ba45b21dcc7323872a8
-SHA256: 89550e7c0483a874028e87c233ca7b1ca7f018cfd413e107baabd15dd14d21b0
+Filename: debs/com.nito.nitotv_0.8.7-33.e1_iphoneos-arm.deb
+Size: 1689440
+MD5sum: 4f9c48bc989fa30561bec5f31ba609e1
+SHA1: c797c3c9e6d4876ca44dae64a597244618d54e90
+SHA256: f7629291e55b7b1486e66c2d53caf9591f4133bb87342ba74d976558b7ccac37
 
 Architecture: iphoneos-arm
 Name: TSSAgent
