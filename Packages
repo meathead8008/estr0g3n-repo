@@ -30,6 +30,22 @@ MD5sum: 48f98b575b20a650d2a01586b6c53c53
 SHA1: 9f806f66ba20b10a58cf1ccb5cd7aa199116f010
 SHA256: f8432bd30192bca8e698e1e6146a10232326b3f8a6f3de8c8725c28ff274bac0
 
+Package: com.estr0g3n.theme
+Name: Estr0g3n Theme
+Description: Theming engine for the Apple TV home screen: themed background (accent gradient or your own image), set from the Estr0g3n hub Tweaks tab.
+Maintainer: Estr0g3n
+Author: Estr0g3n
+Section: Tweaks
+Depends: mobilesubstrate, com.estr0g3n.hub
+Architecture: iphoneos-arm
+Version: 0.9.0
+Installed-Size: 88
+Filename: debs/com.estr0g3n.theme_0.9.0_iphoneos-arm.deb
+Size: 7562
+MD5sum: 5f04e3fb99729931e9e308bb5160e703
+SHA1: 051902bdb2e41e68769ff36243ec84ddb8cea3b4
+SHA256: 919d5739d1ed8e5dc6ac00f0b711a85240251703d164f763d054a0bfdf2c492b
+
 Package: com.firecore.freemem-watcher
 Name: freemem-watcher
 Version: 1.0-2
