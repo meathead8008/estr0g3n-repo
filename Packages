@@ -22,10 +22,141 @@ Author: Estr0g3n
 Section: System
 Depends: beigelist, com.estr0g3n.https
 Architecture: iphoneos-arm
-Version: 0.5.0
-Installed-Size: 392
-Filename: debs/com.estr0g3n.hub_0.5.0_iphoneos-arm.deb
-Size: 156892
-MD5sum: 25bbeeea50c37240a1077fde53728aa5
-SHA1: f56ceb295878e218255194d470319a0989502612
-SHA256: 2223a966df328b16c9274b2148c9a73285804458aa8f9a990191c610c07f2397
+Version: 0.5.15
+Installed-Size: 408
+Filename: debs/com.estr0g3n.hub_0.5.15_iphoneos-arm.deb
+Size: 162234
+MD5sum: 48f98b575b20a650d2a01586b6c53c53
+SHA1: 9f806f66ba20b10a58cf1ccb5cd7aa199116f010
+SHA256: f8432bd30192bca8e698e1e6146a10232326b3f8a6f3de8c8725c28ff274bac0
+
+Package: com.firecore.freemem-watcher
+Name: freemem-watcher
+Version: 1.0-2
+Architecture: iphoneos-arm
+Description: Restarts apsd on AppleTV in case of high memory usage
+Homepage: http://firecore.com
+Maintainer: FireCore, LLC <info@firecore.com>
+Author: FireCore, LLC <info@firecore.com>
+Section: System
+Installed-Size: 502
+Filename: debs/com.firecore.freemem-watcher_1.0-2_iphoneos-arm.deb
+Size: 1742
+MD5sum: 4ec6b0c4949672da48d50233d947f936
+SHA1: 93f298a7b75e52ceaba838353352a35ffc174c1b
+SHA256: c2e6a5d07493e7b2a9cdb54a86fd4ebc62974c28af7f8807b17c68c92eba0b93
+
+Architecture: iphoneos-arm
+Name: nitoTV
+Package: com.nito.nitotv
+Provides: com.nito.gs
+Conflicts: com.nito.gs(<=0.1-4)
+Replaces: com.nito.gs(<=0.1-4)
+Version: 0.8.7-33
+Website: nitosoft.com
+Maintainer: nito
+Author: nito
+Description: New and improved installer including package queues, weather, RSS, featured packages, revamped search, package deletion, automatically checks for essential updates now too!
+Section: Utilities
+Depends: beigelist(>=2.2.5-10), mobilesubstrate, cydia(>=1.1.1), com.nito.tssagent(>=1.3-18), com.firecore.freemem-watcher, syslogd
+Installed-Size: 2456
+Filename: debs/com.nito.nitotv_0.8.7-33_iphoneos-arm.deb
+Size: 1687980
+MD5sum: 29bd9d4ffdcb3345c5ec5b8a6c22f0c5
+SHA1: edc3439bac992c1ad2451ba45b21dcc7323872a8
+SHA256: 89550e7c0483a874028e87c233ca7b1ca7f018cfd413e107baabd15dd14d21b0
+
+Architecture: iphoneos-arm
+Name: TSSAgent
+Package: com.nito.tssagent
+Version: 1.3-18
+Website: http://nitosoft.com
+Maintainer: nito
+Author: nito
+Description: a standalone solution for listing SHSH blobs, fetching SHSH blobs and submitting the blobs to saurik's SHSH server.
+Section: Utilities
+Installed-Size: 132
+Filename: debs/com.nito.tssagent_1.3-18_iphoneos-arm.deb
+Size: 49434
+MD5sum: 27554d41fd52f9d3dfb001dcf1335fcb
+SHA1: 8926bd93cac1e4299c92c4344c7610aff4fdd198
+SHA256: 4ef0ec4ff86e691ab35b5d5d320fcea0dd4e04a2f6d20640bd6ed10271566155
+
+Package: cydia-lproj
+Priority: required
+Section: Packaging
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1.1.12
+Conflicts: org.thebigboss.russiancydia
+Provides: org.thebigboss.russiancydia
+Replaces: cydia, org.thebigboss.russiancydia
+Depends: cydia
+Description: languages and translations for Cydia
+Name: Cydia Translations
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia-lproj/
+Tag: purpose::uikit, cydia::essential, role::enduser
+Installed-Size: 712
+Filename: debs/cydia-lproj_1.1.12_iphoneos-arm.deb
+Size: 66876
+MD5sum: 50df4fbd8f163f553a5ba6e4e8fcad15
+SHA1: e3cf092b6e54261f59c7bcbf483d60479a9f86e4
+SHA256: be77311b214122e5ff7dabd001c96b8cd8a4e479362f3163a557d8dd9b520f31
+
+Package: cydia
+Priority: required
+Section: Packaging
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1.1.30
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Depends: apt7-lib, apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
+Provides: bigbossbetarepo, cydia-sources
+Description: graphical iPhone front-end for APT
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Tag: purpose::uikit, cydia::essential, role::enduser
+Installed-Size: 7160
+Filename: debs/cydia_1.1.30_iphoneos-arm.deb
+Size: 1292624
+MD5sum: bb0cdc40d3abac5b874972ad8a8b70a1
+SHA1: a237e6a09c77e91e1c89d212e53a85e691b0b47a
+SHA256: f80a5228b2bacbd8e2640d96dc1b15a5cf0db681d2ed976cf53f1f5c64a9b184
+
+Package: debianutils
+Essential: yes
+Priority: required
+Section: Utilities
+Installed-Size: 40
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 3.3.3ubuntu1-1p
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: pretty much just run-parts. yep? run-parts
+Name: Debian Utilities
+Filename: debs/debianutils_3.3.3ubuntu1-1p_iphoneos-arm.deb
+Size: 6164
+MD5sum: 0f293f3fc3c921f0f292878f82f2a616
+SHA1: 8ea7c8ca567bc34d41ab3298c30468e7ef89f45d
+SHA256: 2d0f2b0e05bbd99c2ac3850dd68dc750f90d9d8ab8f60f91aab606c5efab707a
+
+Package: org.thebigboss.repo.icons
+Priority: optional
+Section: Repositories
+Installed-Size: 48
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.0
+Replaces: cydia, bigboss
+Description: locally cached package icons from BigBoss
+Name: BigBoss Icon Set
+Filename: debs/org.thebigboss.repo.icons_1.0_iphoneos-arm.deb
+Size: 11488
+MD5sum: f286c0da9cf71d206bea9aa6bf225701
+SHA1: 401b49fba4dd88d62c2e76dcaf57562a82a4fa7b
+SHA256: 30076cf7179cc1a25a8c33242b4ca6b8b70edf172d16b1368c232b16e4f93e9f

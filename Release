@@ -7,14 +7,14 @@ Architectures: iphoneos-arm
 Components: main
 Description: Estr0g3n for Apple TV 3: the hub, modern HTTPS for APT, and tweaks.
 MD5Sum:
- 92faa1bff6d69ae9157f724e6d5a291c 1106 Packages
- b47c8702a11d52f33fd8f182848511d8 620 Packages.gz
- a467aac84feb13eb8c2bbbb8c67a76f0 678 Packages.bz2
+ 5016a8ab4d4d89c0d870160929a59172 6040 Packages
+ 905863d8a4bd455aef2c3386fad8c670 2457 Packages.gz
+ 633e936e6b531e0b7d24ff3f9dbb2c68 2532 Packages.bz2
 SHA1:
- 7382dca010d44cad03b5c37fea2c4406ad95a038 1106 Packages
- 9d06eda845e7f31549fc7d70ba0b00c39d9c86ea 620 Packages.gz
- b1ded0a1d53bef46240d33b4f811a58a40cb5d62 678 Packages.bz2
+ 2753a936b242aacd031794495274828c18272205 6040 Packages
+ bb1768b4fbc6ec9b2619749045eec6fdd1ff884c 2457 Packages.gz
+ 579e5a9add3c01becaedd4c571384d295faf6bde 2532 Packages.bz2
 SHA256:
- 46d7df1482cc758dfb6e7626303decd6dee0cc1e3700ba88d0f3abe4eb3f3085 1106 Packages
- 792e5a910b5ca12ed18000ed7d0db00dce780105b920860a764cfc1e98dde01e 620 Packages.gz
- b4ee11bd7d733202fb49c4d10e2349521bf7349904dab76d1fc4044a38600dd8 678 Packages.bz2
+ 990f796c97230a36d7086065e2511208fc63203f73792a27d5a0cdc97262e3b9 6040 Packages
+ ed9e9b04f51774441fff1d2aa931ab17cc0609073cafc0567a805d37e0d83c3c 2457 Packages.gz
+ 92feacc3b2b0f09dba0088cb9b64928442707da95aa171154f490d80f8e38725 2532 Packages.bz2
