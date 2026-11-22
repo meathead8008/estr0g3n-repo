@@ -1,3 +1,18 @@
+Package: com.estr0g3n.base
+Name: Estr0g3n
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Everything Estr0g3n in one package: the hub (packages, sources, tweaks, maintenance), modern HTTPS for APT, the home-screen theme engine, and nitoTV. This is what the Estr0g3n jailbreak preinstalls.
+Maintainer: Estr0g3n
+Author: Estr0g3n
+Section: System
+Depends: com.estr0g3n.hub (>= 0.5.16), com.estr0g3n.https, com.estr0g3n.theme (>= 0.9.1), com.nito.nitotv (>= 0.8.7-33.e2)
+Filename: debs/com.estr0g3n.base_1.0.0_iphoneos-arm.deb
+Size: 708
+MD5sum: 93e8ac6ef14b59f878b5cb097d949b36
+SHA1: 83c23b13beaeab45d737fa25e267c4458188d634
+SHA256: 3acbb3b46217050c0b10aec8a0a2ec21076c788605cc2cc675da231dbed893a7
+
 Package: com.estr0g3n.https
 Name: Estr0g3n HTTPS for APT
 Description: Lets APT reach modern HTTPS repos (TLS 1.2) using Apple's networking instead of the old OpenSSL 0.9.8, and trusts newer root certificates like Let's Encrypt.
@@ -22,13 +37,13 @@ Author: Estr0g3n
 Section: System
 Depends: beigelist, com.estr0g3n.https
 Architecture: iphoneos-arm
-Version: 0.5.15
-Installed-Size: 408
-Filename: debs/com.estr0g3n.hub_0.5.15_iphoneos-arm.deb
-Size: 162234
-MD5sum: 48f98b575b20a650d2a01586b6c53c53
-SHA1: 9f806f66ba20b10a58cf1ccb5cd7aa199116f010
-SHA256: f8432bd30192bca8e698e1e6146a10232326b3f8a6f3de8c8725c28ff274bac0
+Version: 0.5.16
+Installed-Size: 420
+Filename: debs/com.estr0g3n.hub_0.5.16_iphoneos-arm.deb
+Size: 163254
+MD5sum: 9312d8a475fa262d95a29eebb16b9076
+SHA1: 525d4b4f5fd0fc0705b9f783cbd2794ee3b8c82a
+SHA256: da413cc889c7e26c6906101044401aae36b67ba098940e30ca4379a5308e3a22
 
 Package: com.estr0g3n.theme
 Name: Estr0g3n Theme
@@ -38,13 +53,13 @@ Author: Estr0g3n
 Section: Tweaks
 Depends: mobilesubstrate, com.estr0g3n.hub
 Architecture: iphoneos-arm
-Version: 0.9.0
+Version: 0.9.1
 Installed-Size: 88
-Filename: debs/com.estr0g3n.theme_0.9.0_iphoneos-arm.deb
-Size: 7562
-MD5sum: 5f04e3fb99729931e9e308bb5160e703
-SHA1: 051902bdb2e41e68769ff36243ec84ddb8cea3b4
-SHA256: 919d5739d1ed8e5dc6ac00f0b711a85240251703d164f763d054a0bfdf2c492b
+Filename: debs/com.estr0g3n.theme_0.9.1_iphoneos-arm.deb
+Size: 7738
+MD5sum: 5012dbbbbe5c8b819cf285b2f97a5578
+SHA1: cf5bdb8a2e4cf6a69c617551ca64fd952a6ceeec
+SHA256: f1c3925bd95f1a97f6906d0cfcf585840e336218815d4c19d3f6cc61eddbdcd5
 
 Package: com.firecore.freemem-watcher
 Name: freemem-watcher
@@ -68,7 +83,7 @@ Package: com.nito.nitotv
 Provides: com.nito.gs
 Conflicts: com.nito.gs(<=0.1-4)
 Replaces: com.nito.gs(<=0.1-4)
-Version: 0.8.7-33.e1
+Version: 0.8.7-33.e2
 Website: nitosoft.com
 Maintainer: nito
 Author: nito
@@ -76,11 +91,11 @@ Description: New and improved installer including package queues, weather, RSS, 
 Section: Utilities
 Depends: beigelist(>=2.2.5-10), mobilesubstrate, cydia(>=1.1.1), com.nito.tssagent(>=1.3-18), com.firecore.freemem-watcher, syslogd
 Installed-Size: 2456
-Filename: debs/com.nito.nitotv_0.8.7-33.e1_iphoneos-arm.deb
-Size: 1689440
-MD5sum: 4f9c48bc989fa30561bec5f31ba609e1
-SHA1: c797c3c9e6d4876ca44dae64a597244618d54e90
-SHA256: f7629291e55b7b1486e66c2d53caf9591f4133bb87342ba74d976558b7ccac37
+Filename: debs/com.nito.nitotv_0.8.7-33.e2_iphoneos-arm.deb
+Size: 1689538
+MD5sum: 811af4fb6bec1274f2a16683a1c9db39
+SHA1: 094b43d7b48265b7a0dfe51cc7b7d282e0676987
+SHA256: db7ee54455508627b8a63290ae77fe77ea93effcf70c8859ff5f59ba252127a0
 
 Architecture: iphoneos-arm
 Name: TSSAgent

@@ -1,0 +1,34 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Estr0g3n
+Label: Estr0g3n
+Suite: stable
+Version: 1.0
+Codename: estr0g3n
+Architectures: iphoneos-arm
+Components: main
+Description: Estr0g3n for Apple TV 3: the hub, modern HTTPS for APT, and tweaks.
+MD5Sum:
+ 9223715adc7b2e6f30ffdd6aa22e24a6 7386 Packages
+ 51bf22d286b7c7df6b19f5df1b78a96b 2924 Packages.gz
+ a48925342eae33941b690eee88f99dd3 2947 Packages.bz2
+SHA1:
+ 21fda534add53481d8810df3248049f80887e4af 7386 Packages
+ 7cbcde37c67cf04d7d9680c08d22fe26b1016bdd 2924 Packages.gz
+ 7182ca82d49780bf3368dcede06658abb41e86ab 2947 Packages.bz2
+SHA256:
+ 15b0cade0ad2e209fe2af856b16bbb7919007d922fdba49dc172c4a032883d9a 7386 Packages
+ c30e1c1a5ea73406bd68ae4d64021ec76e0c53c2b1ad6514d63985dcc5dc813d 2924 Packages.gz
+ d216d2acdceac39e73cf8e28103933eb401c6859d55e24b3a12e1dcc7acc4d2a 2947 Packages.bz2
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEED16MTukPJKRA5I/OhEAeu8LUD2UFAmsCMwUACgkQhEAeu8LU
+D2VjzQgAlKw50aiEIcVjWH218NULhdgMR60LrWJri7Eo/e7b4Wiqd5GW0tf/W1UY
+jZsGTvCwBGBy9pEVUmcQkDrT8GqQIeeqWY62Rw7AyyOytduqLZxsLdP1hGkcSO/Y
+wGEv1K5jWow+eEkA1hgQR0kqnJsfjZtscv/XOe0uvmnkr2UY+8MUxbNh4w59mbLr
+7XKd2tNlqdZALGCkveMMeuYJjizEPilNia3pu1IDvZdHOfTEthX377gVC/BMBF2s
+DLHaAUCOmVQrctye1QB2Mok305AXhXj4+syM5bbrJ2k3UZj9DG5uPszFby2ir52D
+wZ+qEv2TYyMDEL2jW/0ONNHkbriITQ==
+=mWY8
+-----END PGP SIGNATURE-----
